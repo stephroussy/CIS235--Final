@@ -1,0 +1,213 @@
+/* Body */
+Body { color: #020202; background-color: #90C7E3;
+        background-image:
+        linear-gradient(to
+        bottom, #FFFFFF, pink);
+        background-repeat: no-repeat;
+        font-family: Arial, Verdana, sans-serif; }
+        
+        #wrapper { margin-left: auto;
+                margin-right: auto;
+                width: 80%; 
+                background-color: #e5ffcc;
+              min-width: 960px; 
+              max-width: 2048px; 
+              box-shadow: 5px 5px 5px #828282; }
+        
+/* Header */
+        
+        header { color: rgba(191, 24, 224, 0.906); 
+                background-color:rgba(213, 111, 233, 0.906); 
+                background-image: url(heading.jpg);
+                background-position: center;
+                background-repeat: no-repeat; 
+                height: 300px;
+                background-size: 53% 100%;
+                padding-bottom: 1em;
+                margin-bottom: 1em;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px; }   
+        
+/* Demo */
+        
+        .demo {text-align: center;
+                font-size: 1.5em;
+                font-family: Arial, Verdana, sans-serif;
+               }
+        
+/* Navigational Menu */
+
+        nav { font-weight: bold;
+                    float: left;	  
+                    padding-top: 2em;
+                    margin-top: 8.5em;
+                    Font-size: 2em;
+                    position: fixed;}
+          nav a { text-decoration: none;
+                   color: rgba(213, 111, 233, 0.906);
+                   background-color: white;
+                text-shadow: 2px 2px #0a0a0a;
+                border-radius: 25px;
+                border: 2px solid #030303;
+                padding: 4px;
+                display: block;
+                text-align: center;}
+
+        nav li {
+                display: inline; }
+
+/* Article Background */
+
+        .background {background-image: url(article.jpg);
+                background-repeat: no-repeat;
+                  background-size: 100% 100%;
+                  padding-bottom: 2em;
+                  min-height: 35em;}
+/*Image found on Pexels.com. 
+        Koppens, Y. (2017). Three Beige, Yellow, and Pink Heart Marshmallows [Online Image]. 
+                Pexels. https://www.pexels.com/photo/three-beige-yellow-and-pink-heart-marshmallows-612825/.*/
+
+/* Newsletter */
+
+        aside {float:right;
+                margin-right: 1em;
+                padding: 20px;
+               text-align: center;
+                background-color: pink;
+                min-width: 200px;
+                min-height: 100px;}
+                
+        #Submit {margin-left: 3em;}
+        
+        label { float: left;
+                display: block;
+                width: 8em; } 
+                
+        .top {display: block;
+                margin-bottom: 1em;} 
+
+/*Coupon*/
+
+        .coupon { color: black;
+                padding-left: 8.5em;
+                font-size: 2em;
+                line-height: 2em;}
+
+        .coco {color:rgba(24, 224, 84, 0.906);
+                text-shadow: 1.5px 1.5px #0a0a0a;
+                font-weight: bold;}
+        
+/* Fonts */
+        
+        h1 { color: rgb(0, 195, 255);
+                text-align: center;
+                 font-family: Marker Felt, fantasy; 
+                 font-size: 4em;
+                padding-left: 16%;
+                text-shadow: 3px 3px #0a0a0a;
+                padding-top: .3em;} 
+        
+        h2 {font-family: Apple Chancery, cursive; 
+                font-size: 2.5em;}
+        
+/* Footer */
+        
+        Footer { font-size: .70em; 
+                font-style: italic; 
+                text-align: center; 
+                padding: 1em; 
+                margin-top: 10px;
+                padding-top: .8em;}
+
+/* Section */
+
+section {padding-left: 16%;}
+
+.under {margin-bottom: 19em;}
+
+.darkcoco {margin-bottom: 10em;}
+
+
+/* Hard Candy */
+
+.title {padding-top: 2.5em;}
+.toptitle {padding-top: .1em;}
+
+/* Section Photos */
+
+.square {height: 300px;
+        width: 300px;
+        float: left;
+        margin-left: 5em;
+        margin-right: 5em;}
+
+.squarebottom {height: 300px;
+        width: 300px;
+        float: left;
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-bottom: 10em;}
+
+.rectangle {height: 400px;
+        width: 300px;
+        float: left;
+        margin-left: 5em;
+        margin-right: 5em;}
+        
+        /* Lists */ 
+        .list {margin-right: 8.3em;
+                padding: .1em;
+                list-style-type: none;}
+        
+        .spacing {padding-bottom: .4em;}
+        
+        
+        
+        /* Mobile Device */
+         @media screen and (max-width: 700px) {
+                nav {width: auto;
+                        padding: 0.5em;}
+                
+                nav li {display: block;
+                        margin-top: 10px;
+                        margin-bottom: 10px;}
+                
+                nav a {border: solid 3px black;
+                        border-radius: 10px;
+                        width: 30%;
+                        background-color: pink;
+                        text-decoration: none;}
+                
+                aside {display: block;
+                        margin: auto;
+                        float: none;}
+                
+                .aside {width: 400px;
+                        height: 500px;
+                        padding-top: 2em;}
+                        
+                #heading {background-image: url(heading.jpg);
+                        background-repeat: no-repeat;
+                        height: 400px;
+                        background-size: 100% 100%;
+                        padding-bottom: 2em;
+                        margin: auto;
+                        display: block;}
+        
+                Body { color: #020202; background-color: #90C7E3;
+                                background-image:
+                                linear-gradient(to
+                                bottom, #FFFFFF, #90C7E3);
+                                background-repeat: no-repeat;
+                                font-family: Arial, Verdana, sans-serif; }
+                                
+                h1 { text-align: center; font-family: Snell Roundhand, cursive; font-size: 3em;} 
+                                
+                #wrapper { margin-left: auto;
+                                           margin-right: auto;
+                                           width: 80%; 
+                                           background-color: #fcf8c4;
+                                         min-width: 960px; 
+                                         max-width: 2048px; 
+                                         box-shadow: 5px 5px 5px #828282; }}
+               
